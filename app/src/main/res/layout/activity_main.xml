@@ -27,10 +27,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
+
             android:rotation="-27"
-            android:text="Sale -30%"
+            android:text="Sale -15%"
             android:textStyle="bold"
-            android:textColor="@color/white"
+            android:textColor="@color/teal_200"
             android:textSize="24sp" />
     </RelativeLayout>
     <TextView
@@ -46,11 +47,12 @@
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+
     <ImageView
-        android:layout_width="100dp"
+        android:layout_width="wrap_content"
         android:layout_height="100dp"
-        android:src="@drawable/guitar"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:src="@drawable/guitar" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -131,13 +133,11 @@
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
-
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:background="#ED1414"
         android:text="ADD TO CART"
-        android:textColor="@color/black"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
 </LinearLayout>
